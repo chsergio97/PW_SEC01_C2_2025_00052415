@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Practica Corto1</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -24,8 +25,11 @@
                         <li>Año de publicacion: 2015</li>
                         <li>ISBN: 978-84-944049-4-8</li>
                     </ul>
+                    <span id="img-selected"></span>
                 </div>
                 <div class="col-2">
+                    <div class="efecto">
+                    
                     <h3>Descripción del libro</h3>
                     <p>
                         Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -63,9 +67,10 @@
                         publishing software like Aldus PageMaker including versions of
                         Lorem Ipsum.
                     </p>
+                    </div>
                     <h3>Contenido del libro</h3>
                     <p>El contenido de este libro se estructura en tres apartados bien diferenciados:</p>
-                    <div class="row">
+                    <div id="reverse-columns" class="row">
                         <div class="col-1">
                             <p>
                             Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -99,6 +104,16 @@
                             </p>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="controles">
+                        <button id="reverse">Reverse</button>
+                        <input type="text" name="txt_titulo" id="txt_titulo" placeholder="Nuevo Título" />
+                        <button id="btn_title">Nuevo Titulo</button>
+                        <button id="btn_color-title">Cambiar Color(random) y fuente</button>
+                        <button id="btn_img">mostrar Imagen</button>
+                    
                 </div>
             </div>
         </div>

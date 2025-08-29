@@ -14,12 +14,30 @@
     display: flex;
     flex-wrap: wrap;
 }
+.reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
 .col-1 {
     flex: 1;
     padding: 10px 15px 10px 0;
     box-sizing: border-box;
 }
+
 .col-2{
     flex: 2;
     box-sizing: border-box;
+}
+.controles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0;
+}
+button{
+    padding: 2px;
+    margin: 5px;
+
 }
