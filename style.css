@@ -1,0 +1,25 @@
+.container {
+    padding-left: 6%;
+    padding-right: 6%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header-content {
+    text-align: center;
+    padding: 10px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-1 {
+    flex: 1;
+    padding: 10px 15px 10px 0;
+    box-sizing: border-box;
+}
+.col-2{
+    flex: 2;
+    box-sizing: border-box;
+}
